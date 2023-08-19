@@ -12,7 +12,7 @@ export class App extends Component {
   state = {
     searchQuery: '',
     page: 1,
-    per_page: 12,
+    per_page: 18,
     photos: [],
     totalHits: 0,
     showloadMore: false,
