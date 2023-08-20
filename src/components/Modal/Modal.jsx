@@ -28,4 +28,5 @@ export class Modal extends Component {
 }
 Modal.propTypes = {
   closeImgModal: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
 };
